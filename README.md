@@ -13,13 +13,13 @@ cd StickerSmash
 npm run web
 ```
 
-And now the `lang` and `dir` attribute won't be set even though they are set already in `app.json`
+And now the `lang` and `dir` attribute won't be set even though they are set already in `app.json` (please see the file)
 
 While exporting:
 
 ```bash
 npx expo export
-npx expo server
+npx expo serve
 ```
 
 And the generated output also would not have the `lang` and `dir` attributes set.
